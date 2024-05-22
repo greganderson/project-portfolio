@@ -6,62 +6,79 @@
     <title>Personal Portfolio</title>
   </head>
   <body>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h1 id="about">About Me</h1>
-    <p>
-      Hi, I'm Greg. I'm a web developer with a passion for creating super cool
-      websites.
-    </p>
+    <article>
+      <h2 id="about">About Me</h2>
+      <p>
+        Hi, I'm Greg. I'm a web developer with a passion for creating super cool
+        websites.
+      </p>
+    </article>
 
-    <h2 id="projects">Projects</h2>
-    <div>
-      <h3>
-        <a
-          href="https://github.com/greganderson/classical-piano-api"
-          target="_blank"
-          >Classical Piano API</a
-        >
-      </h3>
-      <p>A small FastAPI app that manages composers and pieces.</p>
-    </div>
-    <div>
-      <h3>
-        <a href="https://github.com/greganderson/education-app" target="_blank"
-          >Education API</a
-        >
-      </h3>
-      <p>A "fun" FastAPI app that caused pain and suffering to my students.</p>
-    </div>
-    <div>
-      <h3>
-        <a
-          href="https://github.com/greganderson/fastapi-basic-auth"
-          target="_blank"
-          >FastAPI Auth Example</a
-        >
-      </h3>
-      <p>Repo demonstrating basic auth using FastAPI</p>
-    </div>
+    <main>
+      <h2 id="projects">Projects</h2>
+      <div>
+        <h3>
+          <a
+            href="https://github.com/greganderson/classical-piano-api"
+            target="_blank"
+          >
+            Classical Piano API
+          </a>
+        </h3>
+        <p>A small FastAPI app that manages composers and pieces.</p>
+      </div>
+      <div>
+        <h3>
+          <a
+            href="https://github.com/greganderson/education-app"
+            target="_blank"
+            >Education API</a
+          >
+        </h3>
+        <p>
+          A "fun" FastAPI app that caused pain and suffering to my students.
+        </p>
+      </div>
+      <div>
+        <h3>
+          <a
+            href="https://github.com/greganderson/fastapi-basic-auth"
+            target="_blank"
+            >FastAPI Auth Example</a
+          >
+        </h3>
+        <p>Repo demonstrating basic auth using FastAPI</p>
+      </div>
+    </main>
 
-    <h2 id="contact">Contact Me</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" />
+    <section>
+      <h2 id="contact">Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message"></textarea>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
 
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
 
-    <p>&copy; 2024 Gregorio the Grand Inquisitor. All rights reserved.</p>
+    <footer>
+      <p>&copy; 2024 Gregorio the Grand Inquisitor. All rights reserved.</p>
+    </footer>
   </body>
 </html>
